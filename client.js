@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Client half of the skill drawer.
  *
  * A 320x340 menu anchored to the composer button (4px above it, left aligned),
