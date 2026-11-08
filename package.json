@@ -1,0 +1,51 @@
+﻿{
+  "name": "dsh-skill-drawer",
+  "version": "0.11.0",
+  "description": "技能抽屉：在 DSH 输入框旁按分类浏览本机技能，搜索并一键插入 /命令（只读，不改技能文件）",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "skill",
+    "skills",
+    "composer",
+    "drawer"
+  ],
+  "scripts": {
+    "test": "node scripts/smoke.mjs",
+    "preflight": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/*.png",
+    "LICENSE",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

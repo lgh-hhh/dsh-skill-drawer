@@ -1,0 +1,5 @@
+# Keep the working tree identical on every OS; these files are plain text.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary

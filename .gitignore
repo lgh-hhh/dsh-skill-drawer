@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+# 本地数据永远不进仓库
+prefs.json
+*.bak
+*.corrupt-*
+# 本地临时备份
+*.skill-drawer-backup-*
+
+# 本机中文说明：属于个人数据，永不入库
+notes-zh.json

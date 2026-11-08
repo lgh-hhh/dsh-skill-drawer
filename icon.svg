@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Skill Drawer">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#1b1e23"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="13.5" fill="none" stroke="#4f8cff" stroke-opacity=".55"/>
+  <rect x="16" y="16" width="32" height="9" rx="3" fill="#4f8cff" fill-opacity=".18" stroke="#4f8cff" stroke-width="2"/>
+  <path d="M16 30h32v5H16zM16 39h22v5H16z" fill="#c9d3e3" fill-opacity=".55"/>
+  <path d="M43 36.4l1.6 3.6 3.9.4-2.9 2.6.8 3.8-3.4-2.1-3.4 2.1.8-3.8-2.9-2.6 3.9-.4z" fill="#4f8cff"/>
+</svg>
