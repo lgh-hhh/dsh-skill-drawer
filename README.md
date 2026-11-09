@@ -11,7 +11,7 @@ by name or description, and inserts `/name ` at the caret. No build step, MIT li
 
 ![抽屉展开](docs/screenshot-overview.png)
 
-<sub>示意图：抽屉挂在「技能」按钮上方 4px，左边对齐按钮；右侧是悬停出来的说明卡片。</sub>
+<sub>示意图：抽屉挂在「技能」按钮上方 4px、左边对齐按钮；右侧是悬停出来的说明卡片。</sub>
 
 ## 能做什么
 
@@ -105,12 +105,21 @@ node scripts/smoke.mjs      # 8 项自检：加载握手、注入声明、槽位
 
 ```
 client.js            浏览器端全部逻辑（无构建）
-index.js             宿主端：故意空转，不注入服务、不注册路由
+index.js             宿主端：只提供读取本机中文说明的接口
 cordis.patch.yml     插件装载声明
 locale/              插件元数据的中英文文案
 scripts/smoke.mjs    离线自检
 docs/                截图与开发规则
 ```
+
+## 声明
+
+Not affiliated with DeepSeek. This is an independent, community-built extension.
+"DeepSeek" and "DeepSeek Harness" belong to their respective owners; they appear here only
+to say which application this plugin is made for.
+
+本插件与深度求索公司无关，是社区独立开发的扩展。名称仅用于说明适用的宿主软件；
+README 中的界面示意图用于展示插件在宿主界面里的位置与用法。
 
 ## License
 
