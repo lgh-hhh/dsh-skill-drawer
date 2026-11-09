@@ -11,7 +11,7 @@ by name or description, and inserts `/name ` at the caret. No build step, MIT li
 
 ![抽屉展开](docs/screenshot-overview.png)
 
-<sub>示意图：抽屉挂在「技能」按钮上方 4px、左边对齐按钮；右侧是悬停出来的说明卡片。</sub>
+<sub>点开「★ 技能」后，抽屉贴着按钮弹起：搜索、分类、数量，展开的分类就地铺开技能。</sub>
 
 ## 能做什么
 
