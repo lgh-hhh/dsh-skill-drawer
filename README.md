@@ -11,6 +11,8 @@ by name or description, and inserts `/name ` at the caret. No build step, MIT li
 
 ![抽屉展开](docs/screenshot-overview.png)
 
+<sub>示意图：抽屉挂在「技能」按钮上方 4px，左边对齐按钮；右侧是悬停出来的说明卡片。</sub>
+
 ## 能做什么
 
 - **按会话读取技能**：走官方 `remote.skills.list({ sessionId })`，用户级（`~/.dsh/skills`）与当前项目的 `.dsh/skills` 自动出现，换会话、换项目自动跟着变；一个技能都没有时显示空状态，不报错
