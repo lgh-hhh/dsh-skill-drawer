@@ -9,7 +9,7 @@
 session already has (user-level and project-level), groups them into categories, lets you search
 by name or description, and inserts `/name ` at the caret. No build step, MIT licensed.</sub>
 
-![抽屉展开](docs/screenshot-menu.png)
+![抽屉展开](docs/screenshot-overview.png)
 
 ## 能做什么
 
